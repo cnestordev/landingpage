@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;
+box-sizing: border-box;
+padding: 0;  
+font: inherit;  
+vertical-align: baseline;
+}
+/*GENERAL STYLES*/
+html{
+    font-size:62.5%;
+}
+
+* {
+	border: 1px solid black;
+}
+
+.container {
+	padding: 0 10%;
+}
+
+nav {
+	background: red;
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.8rem;
+	padding: 2% 0;
+}
+
+.nav-logo {
+	background: blue;
+	font-size: 2rem;
+}
+
+.nav-links {
+	background: orange;
+	flex-basis: 60%;
+	text-align: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	margin: 0 2%;
+}
+
+header {
+	background: pink;
+	display: flex;
+	height: 75vh;
+	margin-bottom: 4%;
+}
+
+.header-text {
+	background: lightblue;
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-image {
+	flex-basis: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 2.5rem;
+}
+
+header p {
+	font-size: 1.5rem;
+	margin-bottom: 2%;
+}
+
+.product-description-section {
+	background: orange;
+	display: flex;
+	flex-wrap: wrap;
+	height: 50vh;
+}
+
+.product-box {
+	background: lightgray;
+	flex-basis: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product-box img {
+	margin-right: 2%;
+}
+
+.product-box-description h4 {
+	font-size: 1.7rem;
+	margin-bottom: 1%;
+}
+
+.product-box-description p {
+	font-size: 1.4rem;
+}
+
+.cta {
+	background: white;
+	margin: 0 auto;
+	flex-basis: 40%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.cta h4 {
+	font-size: 2rem;
+	margin-bottom: 1%;
+}
+
+.cta p {
+	font-size: 1.5rem;
+	margin-bottom: 2%;
+}
